@@ -17,7 +17,7 @@ class GoogleHomePage {
         cy.get(this.googleHomePageSearchButton).click();
         
     }
-
+//Adding a comment to check Git part
     clickOnSearchedResult() {
         cy.get(this.googleSearchResult).invoke('removeAttr','Target').click();
     }
