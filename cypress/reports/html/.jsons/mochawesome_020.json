@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-08-16T04:15:07.301Z",
+    "end": "2023-08-16T04:16:22.300Z",
+    "duration": 74999,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f4636892-a906-45b2-8f3c-9f62ffa21954",
+      "title": "",
+      "fullFile": "cypress\\e2e\\CypressHomePageTest.cy.js",
+      "file": "cypress\\e2e\\CypressHomePageTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c3f7ee31-ea20-4756-9a25-b944fb3ed51a",
+          "title": "Google Home Page Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enter Text in Google Search bar",
+              "fullTitle": "Google Home Page Test Enter Text in Google Search bar",
+              "timedOut": null,
+              "duration": 71454,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n    \"value\": \"cypress\\\\e2e\\\\CypressHomePageTest.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\CypressHomePageTest.cy.js\\\\Google Home Page Test -- Enter Text in Google Search bar (failed).png\"\n      ]\n    ]\n  }\n]",
+              "code": "const cypressHOCF = new _CypressCommonFunctions.default();\ncypressHOCF.cypressHomePageCommonFunctions();",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"/cloud#test_analytics\" class=\"group flex flex-row items-center text-teal-500 sm:text-gray-700 sm:hover:text-teal-600\">...</a>`\n\nThis element `<a.group.flex.flex-row.items-center.text-teal-500.sm:text-gray-700.sm:hover:text-teal-600>` is not visible because its parent `<div.z-50.h-[8px].px-[16px].transition-all.duration-300.group-hover:block.max-sm:absolute.max-sm:-right-full.max-sm:bottom-0.max-sm:left-full.max-sm:top-0.max-sm:transform.sm:mx-[-16px].sm:mt-[-8px].sm:box-content.sm:w-full.lg:absolute.lg:h-[16px].lg:w-auto.lg:max-w-[120px].max-sm:-translate-x-0.sm:hidden>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"/cloud#test_analytics\" class=\"group flex flex-row items-center text-teal-500 sm:text-gray-700 sm:hover:text-teal-600\">...</a>`\n\nThis element `<a.group.flex.flex-row.items-center.text-teal-500.sm:text-gray-700.sm:hover:text-teal-600>` is not visible because its parent `<div.z-50.h-[8px].px-[16px].transition-all.duration-300.group-hover:block.max-sm:absolute.max-sm:-right-full.max-sm:bottom-0.max-sm:left-full.max-sm:top-0.max-sm:transform.sm:mx-[-16px].sm:mt-[-8px].sm:box-content.sm:w-full.lg:absolute.lg:h-[16px].lg:w-auto.lg:max-w-[120px].max-sm:-translate-x-0.sm:hidden>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://www.cypress.io/__cypress/runner/cypress_runner.js:161606:66)\n    at Object.isStrictlyVisible (https://www.cypress.io/__cypress/runner/cypress_runner.js:161620:10)\n    at runAllChecks (https://www.cypress.io/__cypress/runner/cypress_runner.js:140048:26)\n    at retryActionability (https://www.cypress.io/__cypress/runner/cypress_runner.js:140116:16)\n    at tryCatcher (https://www.cypress.io/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise.attempt.Promise.try (https://www.cypress.io/__cypress/runner/cypress_runner.js:16018:29)\n    at whenStable (https://www.cypress.io/__cypress/runner/cypress_runner.js:156356:65)\n    at <unknown> (https://www.cypress.io/__cypress/runner/cypress_runner.js:155797:14)\n    at tryCatcher (https://www.cypress.io/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise._settlePromiseFromHandler (https://www.cypress.io/__cypress/runner/cypress_runner.js:16679:31)\n    at Promise._settlePromise (https://www.cypress.io/__cypress/runner/cypress_runner.js:16736:18)\n    at Promise._settlePromise0 (https://www.cypress.io/__cypress/runner/cypress_runner.js:16781:10)\n    at Promise._settlePromises (https://www.cypress.io/__cypress/runner/cypress_runner.js:16861:18)\n    at Promise._fulfill (https://www.cypress.io/__cypress/runner/cypress_runner.js:16805:18)\n    at <unknown> (https://www.cypress.io/__cypress/runner/cypress_runner.js:18419:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/functionRepo/CypressCommonFunctions.js:17:63)",
+                "diff": null
+              },
+              "uuid": "8240284f-4176-43fb-9fa4-a0e3f1d78407",
+              "parentUUID": "c3f7ee31-ea20-4756-9a25-b944fb3ed51a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "8240284f-4176-43fb-9fa4-a0e3f1d78407"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 71454,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
