@@ -1,1 +1,4 @@
 .node_modules\
+.Cypress_Automation\cypress\videos\
+.Cypress_Automation\cypress\screenshots\
+.Cypress_Automation\cypress\reports\
