@@ -1,6 +1,6 @@
 
-// describe('To Verify Hooks and tags', () => {
-//     it('real test', () => {
+ describe('To Verify Hooks and tags', () => {
+    it('real test', () => {
 //         let i = Math.floor(Math.random() * 100);
 //         var num = prompt("Lets Play!. \n\n Enter the number between the rane of 1-100 guess the randomaly generated number");
 //         var count = 0;
@@ -41,6 +41,6 @@
 //     // })
 
 //     // after(()=>{
-//     //     cy.log('After only once');
-//     // })
-// })
+    cy.log('After only once');
+   })
+})
