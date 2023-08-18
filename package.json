@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
-  
   "author": "Arjun",
   "license": "ISC",
   "devDependencies": {
@@ -13,7 +11,8 @@
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.5.1",
     "cypress-xpath": "^2.0.1",
-    "mochawesome-merge": "^4.3.0"
+    "mochawesome-merge": "^4.3.0",
+    "neat-csv": "^5.2.0"
   },
   "dependencies": {
     "prettier": "^3.0.2"
