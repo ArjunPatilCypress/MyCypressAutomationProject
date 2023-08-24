@@ -15,13 +15,14 @@ describe('Google Home Page Test', () => {
             cy.log("Value insite Fixture"+valueToBeEnetre);
             // load data from logo.png
             ghp.enterTextInTextBox(valueToBeEnetre);
+            ghp.clickGoogleSearchButton();
+            cy.get(ghp.googleHomePageTextBox).should('have.value', 'Cypress');
+            cy.screenshot('cypress/screenshots/googleSearchCompleted.png');
+            ghp.clickOnSearchedResult();
           })
           
         //ghp.enterTextInTextBox(valueToBeEnetre);
         //ghp.clickOnGoogleLogo();
-        ghp.clickGoogleSearchButton();
-        cy.get(ghp.googleHomePageTextBox).should('have.value', 'Cypress');
-        cy.screenshot('cypress/screenshots/googleSearchCompleted.png');
-        ghp.clickOnSearchedResult();
+       
     })
 })

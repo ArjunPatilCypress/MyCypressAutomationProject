@@ -6,7 +6,8 @@ class GoogleHomePage {
     //googleSearchResult = "Cypress: JavaScript";
     googleSearchResult="a[href='https://www.cypress.io/']";
     enterTextInTextBox(TextToEnter) {
-        cy.get(this.googleHomePageTextBox).focus().type(TextToEnter);
+        cy.get(this.googleHomePageTextBox).focus().type(TextToEnter).type('{esc}');
+        
     }
 
     // clickOnGoogleLogo() {
