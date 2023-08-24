@@ -18,7 +18,7 @@ describe('Google Home Page Test', () => {
           })
           
         //ghp.enterTextInTextBox(valueToBeEnetre);
-        ghp.clickOnGoogleLogo();
+        //ghp.clickOnGoogleLogo();
         ghp.clickGoogleSearchButton();
         cy.get(ghp.googleHomePageTextBox).should('have.value', 'Cypress');
         cy.screenshot('cypress/screenshots/googleSearchCompleted.png');

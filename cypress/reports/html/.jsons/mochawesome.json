@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-08-24T21:07:12.756Z",
+    "end": "2023-08-24T21:15:33.974Z",
+    "duration": 501218,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8dbf81c5-d184-4065-bb1f-1c33411e2faa",
+      "title": "",
+      "fullFile": "cypress\\e2e\\CypressHomePageTest.cy.js",
+      "file": "cypress\\e2e\\CypressHomePageTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2e8ea787-742d-46af-b2d6-d7a52f225048",
+          "title": "Google Home Page Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enter Text in Google Search bar",
+              "fullTitle": "Google Home Page Test Enter Text in Google Search bar",
+              "timedOut": null,
+              "duration": 498361,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n    \"value\": \"cypress\\\\e2e\\\\CypressHomePageTest.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Visual Debugging.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Delightful Experience.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Flake Resistance.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Smart Orchestration.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Visual Reviews.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Test Analytics.png.png\",\n        \"\\\\CypressHomePageTest.cy.js\\\\cypress\\\\screenshots\\\\Integrated Workflows.png.png\"\n      ]\n    ]\n  }\n]",
+              "code": "const cypressHOCF = new _CypressCommonFunctions.default();\ncypressHOCF.cypressHomePageCommonFunctions();",
+              "err": {},
+              "uuid": "fc844196-e64b-4f20-b4d1-59a0cb31f68f",
+              "parentUUID": "2e8ea787-742d-46af-b2d6-d7a52f225048",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fc844196-e64b-4f20-b4d1-59a0cb31f68f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 498361,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -30,6 +30,7 @@ describe('Work form fill up test', () => {
         cy.log("Second" + totalValue2);
 
         for (let i = 0; i < totalValue1; i++) {
+            cy.wait(2000);
             cy.visit('https://auth.monday.com/p/forms/users/sign_up_new#soft_signup_from_step');
             cy.log("Priting values first column " + table[i]['email']);
             cy.log("Priting values second column " + table[i]['fullname']);

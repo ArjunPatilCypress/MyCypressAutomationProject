@@ -9,9 +9,9 @@ class GoogleHomePage {
         cy.get(this.googleHomePageTextBox).focus().type(TextToEnter);
     }
 
-    clickOnGoogleLogo() {
-        cy.get(this.googleLogo).click();
-    }
+    // clickOnGoogleLogo() {
+    //     cy.get(this.googleLogo).click();
+    // }
 
     clickGoogleSearchButton() {
         cy.get(this.googleHomePageSearchButton).click();
