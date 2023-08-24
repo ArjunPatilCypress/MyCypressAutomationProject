@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runtests": "npm run test"
+  },
   "author": "Arjun",
   "license": "ISC",
   "devDependencies": {
