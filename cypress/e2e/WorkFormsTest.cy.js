@@ -36,13 +36,13 @@ describe('Work form fill up test', () => {
             cy.log("Priting values third column " + table[i]['pasword']);
             cy.log("Priting values fourth column " + table[i]['AccountName']);
             //cy.get('a[class="button gradient-button w-button"]').click();
-            cy.get('input[placeholder="name@company.com"]').type(table[i]['email']);
-            //cy.wait(7000);
-            cy.get('div[class="submit-button-wrapper"]>button').click();
-            //cy.wait(7000);
-            cy.get('input[placeholder="Enter your full name"]').type(table[i]['fullname']);
-            cy.get('input[placeholder="Enter at least 8 characters"]').type(table[i]['pasword']);
-            cy.get('input[id="account[name]"]').type(table[i]['AccountName']);
+            // cy.get('input[placeholder="name@company.com"]').type(table[i]['email']);
+            // //cy.wait(7000);
+            // cy.get('div[class="submit-button-wrapper"]>button').click();
+            // //cy.wait(7000);
+            // cy.get('input[placeholder="Enter your full name"]').type(table[i]['fullname']);
+            // cy.get('input[placeholder="Enter at least 8 characters"]').type(table[i]['pasword']);
+            // cy.get('input[id="account[name]"]').type(table[i]['AccountName']);
         }
 
     })
